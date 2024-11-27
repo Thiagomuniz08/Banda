@@ -1,0 +1,102 @@
+/* Resetando alguns estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Container do formulário */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/* Cabeçalho da Banda */
+.header {
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    color: #ff6600; /* Cor de destaque */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Estilo dos grupos de inputs */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Rótulos e inputs */
+label {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #333;
+    margin-top: 6px;
+    background-color: #fafafa;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Estilo do botão de envio */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6600; /* Cor vibrante para o botão */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc5200;
+}
+
+/* Estilo de foco nos campos de input */
+input:focus, textarea:focus {
+    border-color: #ff6600;
+    outline: none;
+}
+
+/* Estilo para o fundo da página */
+body {
+    background-color: #f0f0f0;
+}

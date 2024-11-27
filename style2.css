@@ -1,0 +1,55 @@
+body {
+    background: url('images/istockphoto-1251277428-2048x2048.jpg') no-repeat center center;
+    background-size: cover;
+
+}
+.header {
+    background: url('images/istockphoto-1251277428-2048x2048.jpg') no-repeat center center/cover;
+    color: rgb(255, 255, 255);
+    padding: 100px 20px;
+    text-align: center;
+}
+.flor {
+    align-items: center;
+    width: 100PX;
+    height: 200px;
+}
+.content {
+    padding: 20px;
+}
+h2{
+   color: #ffffff;
+   margin-top: 100 px;
+   height: 40px;
+}
+
+.product-list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+}
+.product-item {
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 370px;
+}
+.product-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.banner{
+    background-color: #DAA520;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+    transform: translateY(-20);
+    transition: opacity 0.5s ease, transform 0.5 ease;
+    animation: fadeInDown 0.5s forwards;
+}
